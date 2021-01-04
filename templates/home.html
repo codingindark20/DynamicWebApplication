@@ -1,0 +1,13 @@
+<title>HOME</title>
+    {% extends 'base.html' %}
+    {% block content %}
+   
+    
+    <h1>Hello {{name}}!!!!</h1>
+    <h3>Find VAT Now!!!</h3>
+
+    <form action="vat">
+        Enter a amount: <input type="number" name="amount"><br>
+        <input type="submit">
+    </form>
+    {% endblock %}
